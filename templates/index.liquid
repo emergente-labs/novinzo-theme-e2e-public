@@ -13,6 +13,7 @@
       <span class="block text-white font-normal">{{ store.headline | default: 'Retro games, delivered instantly.' }}</span>
     </h1>
     <p class="text-sm lg:text-base text-white/45 mb-7">Browse our full catalog.</p>
+    {% if %}
     {% if store.customerCount > 50 %}
       <div class="px-2.5 py-1.5 cursor-pointer flex items-center gap-1.5 text-sm rounded-xl bg-black/7.5 text-white/70 transition-colors w-fit hover:bg-white/10 hover:text-white">
         <img src="{{ 'check.svg' | asset_url }}" alt="badge" height="16" width="16">
