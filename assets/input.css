@@ -60,7 +60,7 @@
 
 /* Design tokens — `--color-price` generates `text-price`/`bg-price` utilities. */
 @theme {
-  --color-price: #d4f264;
+  --color-price: #ff7a59;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
